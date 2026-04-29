@@ -1,0 +1,7 @@
+This is a sample document for testing the RAG Document Analysis project.
+The main findings of this document are:
+1. The LangChain.js implementation successfully parsed the file.
+2. The Gemini Embeddings successfully chunked and embedded the text.
+3. The Groq Llama 3 model successfully retrieved the correct chunks to answer the user's questions.
+
+If you are reading this, the document ingestion pipeline is working perfectly!
