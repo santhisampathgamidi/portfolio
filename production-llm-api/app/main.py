@@ -70,15 +70,11 @@ async def validation_handler(_request, exc: RequestValidationError):
 async def health_check():
     backend = os.getenv("LLM_BACKEND", "ollama").lower()
     redis_ok = False
-    redis_error = None
     try:
         redis_ok = await redis_client.ping()
-    except Exception as e:
-        redis_error = f"{type(e).__name__}: {str(e)[:200]}"
-    body = {"status": "ok", "provider": backend, "redis": bool(redis_ok)}
-    if redis_error:
-        body["redis_error"] = redis_error
-    return body
+    except Exception:
+        redis_ok = False
+    return {"status": "ok", "provider": backend, "redis": bool(redis_ok)}
 
 
 def _ndjson(payload: dict) -> str:
