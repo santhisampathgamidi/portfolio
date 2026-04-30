@@ -31,6 +31,16 @@ const liveProjects: Project[] = [
     link: "/llm-api",
     live: true,
   },
+  {
+    title: "RAG From Scratch",
+    tags: ["FastAPI", "sentence-transformers", "MiniLM", "numpy", "Docker", "Render"],
+    description:
+      "An interactive visualiser for RAG primitives. Watch text get sliced into overlapping chunks, embedded into 384-dim vectors via all-MiniLM-L6-v2, and ranked by cosine similarity to your query — no LangChain, no vector DB, just numpy and the math.",
+    color: "teal",
+    icon: "🧩",
+    link: "/rag-scratch",
+    live: true,
+  },
 ];
 
 const projects: Project[] = [

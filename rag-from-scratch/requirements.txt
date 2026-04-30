@@ -1,0 +1,4 @@
+fastapi[standard]>=0.111.0
+pydantic>=2.7.1
+numpy>=1.26.0
+sentence-transformers>=2.7.0
