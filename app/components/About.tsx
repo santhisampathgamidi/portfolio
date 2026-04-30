@@ -1,8 +1,8 @@
 const stats = [
   { label: "Years Experience", value: "5+" },
   { label: "Industries", value: "4+" },
-  { label: "Projects Shipped", value: "20+" },
-  { label: "Cloud Platforms", value: "3" },
+  { label: "Eval Cycle Reduction", value: "90%" },
+  { label: "AI Systems Shipped", value: "3+" },
 ];
 
 export default function About() {

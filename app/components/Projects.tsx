@@ -133,7 +133,7 @@ export default function Projects() {
         </h2>
         <div className="section-divider mb-4" />
         <p className="text-slate-500 mb-12">
-          More live AI tools coming soon — stay tuned for 20 interactive demos.
+          A selection of work — live demos, production systems, and applied research.
         </p>
 
         {/* Live demos */}
@@ -156,15 +156,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Teaser */}
-        <div className="card-glow bg-[#0d0d17] rounded-xl p-8 text-center">
-          <div className="text-4xl mb-4">🚀</div>
-          <h3 className="text-xl font-bold text-white mb-2">20 Live AI Tools — Coming Soon</h3>
-          <p className="text-slate-400 text-sm max-w-xl mx-auto">
-            An interactive showcase of AI-powered apps — each with a live demo, built with
-            Claude AI. Each tool includes 3 free trials so anyone can test it.
-          </p>
-        </div>
       </div>
     </section>
   );
